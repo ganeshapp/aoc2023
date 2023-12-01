@@ -1,5 +1,5 @@
 lines = []
-with open('input1.txt') as f:
+with open('day1_input.txt') as f:
     lines = f.readlines()
 
 sum = 0

@@ -1,7 +1,7 @@
 import re
 
 lines = []
-with open('input1.txt') as f:
+with open('day1_input.txt') as f:
     lines = f.readlines()
 
 sum = 0
@@ -102,5 +102,5 @@ for line in lines:
         second_num = max_index + 1
     #print(first_num, second_num)
     sum = sum + first_num + second_num
-    
+
 print(sum)
